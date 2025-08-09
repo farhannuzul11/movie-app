@@ -4,8 +4,10 @@ A React web application that allows users to search and discover movies using Th
 
 
 ---
+
 <img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/0856693d-5f32-464c-b2fb-57588c102d24" />
 <img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/7e619820-7e87-4bdb-b9e7-c40424cf6c6e" />
+
 ---
 
 ## Features
