@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Search from "./components/Search.jsx";
 import Spinner from "./components/Spinner.jsx";
+import MovieCard from "./components/MovieCard.jsx";
 
 const API_BASE_URL = 'https://api.themoviedb.org/3/';
 
@@ -61,7 +62,8 @@ const App = () => {
             <div className="pattern"/>
 
             <div className="wrapper">
-                <img src="./hero.png" alt="Hero Banner" />
+                <img src="./hero.png" alt="Hero Banner" className="mx-auto w-3/4 sm:w-1/2 lg:w-1/3 h-auto object-contain drop-shadow-md"
+                />
                 <header>
                     <h1>Find <span className="text-gradient">Movies</span> You'll Enjoy Without the Hassle</h1>
                 </header>
@@ -78,7 +80,7 @@ const App = () => {
                     ) : (
                         <ul>
                             {movieList.map(movie => (
-                                <p key={movie.id} className="text-white">{movie.title}</p>
+                                <MovieCard key={movie.id} movie={movie} />
                             ))}
                         </ul>
                     )}
