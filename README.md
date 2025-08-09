@@ -48,7 +48,7 @@ VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
 ```
 npm install
 ```
-Run development server
+3. Run development server
 ```
 
 npm run dev
